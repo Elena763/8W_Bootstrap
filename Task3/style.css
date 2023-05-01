@@ -1,0 +1,153 @@
+/*Стили главной страницы*/
+.bodyhome{
+    background-image: url(images/img1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.logorow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 76px;
+    margin-right: 74px;
+}
+.logorow__btn{
+    border: #5222D0;
+    background: #5222D0;
+    border-radius: 100px;
+    width: 115px;
+    height: 38px;
+    justify-self: right;
+}
+.logorow__btn-link, .card-container-small__link{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    background-color: #ffffff88;
+    margin-left: 126px;
+    margin-top: 89px;
+    width: 542px;
+}
+.content__title, .content-op__title{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 60px;
+    line-height: 120%;
+}
+.content__text{
+    width: 487px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+.content__btn{
+    margin-top: 30px;
+    width: 270px;
+    height: 84px;
+    border: #5222D0;
+    background: #5222D0;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+}
+.content__link{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    margin-left: 126px;
+    margin-top: 146px;
+}
+.menu__nav{
+    display: grid;
+    grid-template-columns: repeat(5, 139px);
+    gap: 34px;
+}
+.menu__li{
+    list-style-type: none;
+    width: 139px;
+}
+.menu__link, .menu__link-b{
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+.menu__link{
+    color: #5222D0;
+}
+/**/
+.content-op__main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px 265px;
+}
+.card-container{
+    width: 440px;
+    height: 550px;
+    padding: 26px 40px 25px 35px;
+}
+.card-container__title, .card-container-small__title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+}
+.card-container__text, .card-container-small__text{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+.card-container-small{
+    width: 440px;
+    height: 259px;
+    padding: 25px 40px 25px 35px;
+}
+.card-container-small__form{
+    width: 365px;
+    height: 233px;
+    background: #EC615B;
+    padding: 22px;
+}
+.card-container-small__titlenews{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.card-container-small__mail{
+    width: 323px;
+    height: 50px;
+    background: #FFFFFF;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    border: #FFFFFF;
+}
+.card-container-small__btn{
+    margin-top: 23px;
+    border: #5222D0;
+    background: #5222D0;
+    border-radius: 100px;
+    width: 135px;
+    height: 38px;
+    justify-self: left;
+}
+.menu__link-b{
+    color: #000000;
+}
